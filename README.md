@@ -1,9 +1,9 @@
 #Cách sử dụng ngôn ngữ Markdown
 #1.Thẻ tiêu đề
 Ví dụ:
-'''
+---
 #1. Tiêu đề cấp 1
-'''
+---
 *Kết quả:*
 #1. Tiêu đề cấp 1
 
