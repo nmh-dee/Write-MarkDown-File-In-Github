@@ -1,44 +1,51 @@
 #Cách sử dụng ngôn ngữ Markdown
-#1.Thẻ tiêu đề
+# 1.Thẻ tiêu đề
 Ví dụ:
----
-#1. Tiêu đề cấp 1
----
+```
+# 1. Tiêu đề cấp 1
+```
 *Kết quả:*
-#1. Tiêu đề cấp 1
-
-'''
+# 1. Tiêu đề cấp 1
+```
 ## 2.Tiêu đề cấp 2
-'''
+````
+
 *Kết quả:*
 ## 2.Tiêu đề cấp 2
 
-#2. Chèn link, chèn ảnh
+# 2. Chèn link, chèn ảnh
 Để chèn hyperlink chỉ cần paste luôn link vào file.md
-'''
+```
 https://github.com
-'''
+```
 *Kết quả:*
 https://github.com
+
+Hoặc sử dụng cú pháp để thu ngắn đường link:
+```
+[Github](https://github.com)
+```
+*Kết quả:*
+[Github](https://github.com)
 
 Để chèn ảnh thì sử dụng cú pháp sau:
-'''
+```
 <img src="link_anh_cua_ban">
-'''
+```
 #3. Ký tự in đậm, in nghiêng:
 Để in đậm:
-'''
+```
 **từ cần in đậm**
-'''
+```
 Để in nghiêng:
-'''
+```
 *từ cần in nghiêng*
-'''
-#4. Trích dẫn, bo chữ
+```
+# 4. Trích dẫn, bo chữ
 Để bo chữ:
-'''
+```
 'đoạn cần bo'
-'''
+```
 *Kết quả:*
 'đoạn cần bo'
 
