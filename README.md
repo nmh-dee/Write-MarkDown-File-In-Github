@@ -68,7 +68,7 @@ netmask 255.255.255.0
 gateway 10.10.10.1
 dns-nameservers 8.8.8.8
 ```
-#5. Gạch đầu dòng
+# 5. Gạch đầu dòng
 Để sử dụng gạch đầu dong, sử dụng cú pháp:
 ```
 - Gạch dầu dòng thứ nhất
