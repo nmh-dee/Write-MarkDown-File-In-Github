@@ -1,4 +1,4 @@
-#Cách sử dụng ngôn ngữ Markdown
+# Cách sử dụng ngôn ngữ Markdown
 # 1.Thẻ tiêu đề
 Ví dụ:
 ```
@@ -50,13 +50,14 @@ Hoặc sử dụng cú pháp để thu ngắn đường link:
 'đoạn cần bo'
 
 Để làm nổi bật 1 đoạn, chẳng hạn như một đoạn shell hay file cấu hình bạn có thể sử dụng cú pháp như sau:
+
     ```sh
     auto eth0
     iface eth0 inet static
     ipaddress 10.10.10.10
-	    netmask 255.255.255.0
-	    gateway 10.10.10.1
-	    dns-nameservers 8.8.8.8
+	netmask 255.255.255.0
+	gateway 10.10.10.1
+	dns-nameservers 8.8.8.8
     ```
 *Kết quả:*
 ```sh
@@ -69,14 +70,14 @@ dns-nameservers 8.8.8.8
 ```
 #5. Gạch đầu dòng
 Để sử dụng gạch đầu dong, sử dụng cú pháp:
-'''
+```
 - Gạch dầu dòng thứ nhất
   -  Thụt với đầu dòng 1
   -  Thụt với đầu dòng 1
 - Gạch đầu dòng thứ hai
   -  Thụt với đầu dòng 2
   -  Thụt với đầu dòng 2
-'''
+```
 
 *Kết quả:*
 - Gạch dầu dòng thứ nhất
