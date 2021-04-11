@@ -44,10 +44,10 @@ Hoặc sử dụng cú pháp để thu ngắn đường link:
 # 4. Trích dẫn, bo chữ
 Để bo chữ:
 ```
-'đoạn cần bo'
+`đoạn cần bo`
 ```
 *Kết quả:*
-'đoạn cần bo'
+`đoạn cần bo`
 
 Để làm nổi bật 1 đoạn, chẳng hạn như một đoạn shell hay file cấu hình bạn có thể sử dụng cú pháp như sau:
 
@@ -86,7 +86,7 @@ dns-nameservers 8.8.8.8
 - Gạch đầu dòng thứ hai
   -  Thụt với đầu dòng 2
   -  Thụt với đầu dòng 2
-#6. Tạo bảng
+# 6. Tạo bảng
 ```
 | Cột 1  | Cột 2 | Cột 3| Cột 4 |
 |--------------|-------|------|-------|
